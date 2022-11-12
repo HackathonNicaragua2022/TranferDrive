@@ -36,19 +36,21 @@ body {
 
 .container {
   
-    background: rgb(2, 1, 1);
+    background: rgba(22, 19, 19, 0.37);
     margin: 0px auto;
 }
 
 .superior {
-    background: #e1fa00dc;
+    background: #d8d8d8dc;
     overflow: hidden;
+    height: 100px;
 }
 
 .logo {
-    float: left;
-    padding: 2%;
-    width: 300px;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 1px;
+    margin-left: 50px;
 }
 
 
@@ -62,31 +64,29 @@ body {
 }
 
 .opcion li {
-    color: aliceblue;
+    color: rgb(254, 254, 255);
     float: left;
     list-style: none;
 }
 
 .opcion li a {
-    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
     text-decoration: none;
-    margin-right: 10px;
-    padding: 25px;
-    border: 1px solid width;
-    font-family: open sans;
-    font-size: 25px;
-    font-style: inherit;
-    font-weight: bold;
-    text-align: right;
-    border-radius: 10px;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 20px;
+    margin-right: 5px;
 }
 
 .opcion li a:hover {
-    color:#d0ff00;
-    background: #00000088;
+    background-color: #d0ff00;
 }
 
 .contenedor-sobre-nosotros {
+
     display: flex;
     justify-content: space-evenly;
 }

@@ -16,6 +16,7 @@ body {
   top: 0;left: 0;
 }
 .container{
+
   width: 85%;
   max-width: 1200px;
   margin: auto;
@@ -31,10 +32,10 @@ body {
  
 }
 .logo h1 img{
-  font-weight: 400;
-  font-size: 25px;
-  margin-top: 25px;
-  margin-left: 10px;
+  font-weight: 200;
+  font-size: 1px;
+  margin-top: 1px;
+  margin-left: 5px;
 }
 .container .menu{
   float: right;
@@ -65,9 +66,11 @@ body {
 /* BANER */
 .banner {
   position: relative;
-  background-image: url(../img/bus3.jpg);
+  background-image: url(../Pruevafond.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height:500 ;
+  width:1350px ;
 
 }
 

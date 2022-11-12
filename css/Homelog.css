@@ -32,8 +32,8 @@ body {
 }
 .logo h1 img{
   font-weight: 400;
-  font-size: 25px;
-  margin-top: 25px;
+  font-size: 1px;
+  margin-top: 1px;
   margin-left: 10px;
 }
 .container .menu{
@@ -65,7 +65,7 @@ body {
 /* BANER */
 .banner {
   position: relative;
-  background-image: url(../img/bus3.jpg);
+  background-image: url(../Pruevafond.png);
   background-size: cover;
   background-repeat: no-repeat;
 
