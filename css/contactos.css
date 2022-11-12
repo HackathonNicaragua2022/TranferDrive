@@ -6,7 +6,7 @@
 
 
 .fondo {
-    background-color: #000000;
+    background-color: #ffffff;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,7 +48,6 @@
     line-height: 100px;
   }
   .container .menu a{
-    border-radius: 10px;
     display: inline-block;
     padding: 15px;
     line-height: normal;
@@ -196,8 +195,9 @@
 /*estilos footer*/
 
 .pie {
-    background: #062348;
-    overflow: hidden;
+    background: rgba(27, 27, 27, 0.616);
+   width: 1300x;
+    height: 225px;
 }
 
 .izquierda {
@@ -238,8 +238,7 @@
 }
 
 .Copyright {
-    float: left;
-    width: 100%;
+    width: 1309px;
     padding: 20px;
     background-color: #144E8C;
     overflow: hidden;

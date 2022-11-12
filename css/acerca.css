@@ -71,7 +71,6 @@ body {
 }
 
 .opcion li a {
-    border-radius: 10px;
     display: inline-block;
     padding: 15px;
     line-height: normal;
@@ -168,8 +167,9 @@ body {
 /*estilos footer*/
 
 .pie {
-    background: #062348;
-    overflow: hidden;
+    background: rgb(128, 124, 124);
+   width: 1300x;
+    height: 225px;
 }
 
 .izquierda {
@@ -210,17 +210,17 @@ body {
 }
 
 .Copyright {
-    float: left;
-    width: 100%;
-    padding: 20px;
+    margin-top: 52px;
+   
+    width:1348px;
+    padding:20px;
     background-color: #144E8C;
-    overflow: hidden;
     text-align: center;
+    
 }
 
 .texto {
     color: white;
-    text-decoration: underline;
 }
 
 a {
